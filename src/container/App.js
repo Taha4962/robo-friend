@@ -38,7 +38,7 @@ class App extends Component {
           <h1 className='f2'>RoboFriends</h1>
           <SearchBox/>
           <Scroll>
-            <CardList robots={filteredRobots}/>
+            <CardList robots ={filteredRobots}/>
           </Scroll>
         </div>
       )
